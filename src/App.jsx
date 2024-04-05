@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import ColorPicker, { useColors } from "ColorPicker";
-/* import { useColors } from "ColorPicker/useColors"; */
+import ColorPicker from "ColorPicker/ColorPicker";
+import { useColors } from "ColorPicker/useColors";
 import ColorList from "ColorList/ColorList";
 import "./index.css";
 
