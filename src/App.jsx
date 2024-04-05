@@ -9,7 +9,7 @@ const App = () => {
 
   const { 
     color,
-    colorList,
+    colorsList,
     handleChangeColor,
     handleClickClearColors,
     handleSubmitSaveColor,
@@ -22,7 +22,7 @@ const App = () => {
     <div className="row">
     <div className="col-12 col-md-4">
     <ColorList 
-      colorList={colorList}
+      colorList={colorsList}
       handleClickClearColors={handleClickClearColors}
     />
     </div>
